@@ -9,9 +9,8 @@ router.get('/', (req, res) => {
 });
 
 // GET to /products/:id
-router.get('/:id', (req, res) => {
-  const { id } = req.params;
-  res.send(`get to /suppliers/${id}`);
+router.get('/:name', (req, res) => {
+  res.send(`get to /suppliers/${req.params.name}`);
 });
 
 module.exports = router;
