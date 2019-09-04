@@ -26,3 +26,24 @@
     1. client makes a request to a server
 
     2. server produces a response and sends it to the client
+
+[client] > request > [mw > mw > mw] > responds [client]
+
+## Middleware
+
+    - can see the request and do something with information from the request
+    - can stop the request and produce a response
+    - can do nothing
+    - can do the same with the response object
+    - **can modify the request or response objects**
+
+    three types.
+
+        -Built-in: not need to npm install
+        -Third party: need to install it using yarn or npm
+        -custom: we build it.
+
+    Can be used.
+
+        -globally with server.use()
+        -locally at a request handler.

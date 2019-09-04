@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ShawnM76/api3#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
   }
 }
